@@ -20,3 +20,9 @@ WHERE location = 'TN' OR location ='KY';*/
 /*SELECT COUNT(*)
 FROM data_analyst_jobs
 WHERE location = 'TN' AND star_rating > 4;*/
+
+--Q5
+--151
+/*SELECT COUNT(*)
+FROM data_analyst_jobs
+WHERE review_count BETWEEN 500 AND 1000;*/
