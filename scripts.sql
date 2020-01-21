@@ -14,3 +14,9 @@ LIMIT 10;*/
 /*SELECT COUNT(*)
 FROM data_analyst_jobs
 WHERE location = 'TN' OR location ='KY';*/
+
+--Q4
+--3
+/*SELECT COUNT(*)
+FROM data_analyst_jobs
+WHERE location = 'TN' AND star_rating > 4;*/
