@@ -38,3 +38,9 @@ ORDER BY avg_rating DESC;*/
 --881
 /*SELECT COUNT(DISTINCT(title))
 FROM data_analyst_jobs;*/
+
+--Q8
+--230
+/*SELECT COUNT(DISTINCT title)
+FROM data_analyst_jobs
+WHERE location = 'CA';*/
