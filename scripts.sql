@@ -33,3 +33,8 @@ WHERE review_count BETWEEN 500 AND 1000;*/
 FROM data_analyst_jobs
 GROUP BY state
 ORDER BY avg_rating DESC;*/
+
+--Q7
+--881
+/*SELECT COUNT(DISTINCT(title))
+FROM data_analyst_jobs;*/
