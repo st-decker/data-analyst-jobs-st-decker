@@ -46,8 +46,10 @@ FROM data_analyst_jobs
 WHERE location = 'CA';*/
 
 --Q9 double check, think of using HAVING
---40
---Real answer is 70, see bottom code
-/*SELECT COUNT (DISTINCT company), AVG(star_rating) AS avg_rate
-FROM data_analyst_jobs
-WHERE review_count > 5000;*/
+--70
+/*SELECT COUNT(company)
+FROM (SELECT company, AVG(star_rating) AS avg_rate
+	FROM data_analyst_jobs
+  	WHERE company IS NOT NULL
+  	GROUP BY company  
+  	HAVING SUM (review_count) > 5000) as test;*/
