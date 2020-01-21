@@ -67,3 +67,10 @@ ORDER BY avg_rate DESC;*/
 /*SELECT COUNT(title)
 FROM data_analyst_jobs
 WHERE title ILIKE '%Analyst%'*/
+
+--Q12
+--4
+--Tableau
+/*SELECT title
+FROM data_analyst_jobs
+WHERE title NOT ILIKE '%Anal%';*/
