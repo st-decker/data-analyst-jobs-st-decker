@@ -61,3 +61,9 @@ FROM data_analyst_jobs
 WHERE review_count > 5000
 GROUP BY company, review_count
 ORDER BY avg_rate DESC;*/
+
+--Q11
+--1669
+/*SELECT COUNT(title)
+FROM data_analyst_jobs
+WHERE title ILIKE '%Analyst%'*/
