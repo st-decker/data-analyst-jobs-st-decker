@@ -53,3 +53,11 @@ FROM (SELECT company, AVG(star_rating) AS avg_rate
   	WHERE company IS NOT NULL
   	GROUP BY company  
   	HAVING SUM (review_count) > 5000) as test;*/
+	
+--Q10
+--Mircosoft, 4.2 rounded
+/*SELECT company, AVG(star_rating) AS avg_rate
+FROM data_analyst_jobs
+WHERE review_count > 5000
+GROUP BY company, review_count
+ORDER BY avg_rate DESC;*/
